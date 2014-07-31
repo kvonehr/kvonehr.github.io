@@ -1,4 +1,4 @@
 kvonehr.github.io
 =================
 
-Website
+A resume extension and personal webpage.
