@@ -1,6 +1,7 @@
 	html, body
 	{
 		height: 100%;
+		width: 100%;
 	}
 	
 	body
@@ -11,6 +12,7 @@
 		font-family: 'Pontano Sans', sans-serif;
 		font-size: 12pt;
 		color: #000000;
+		width: 100%;
 	}
 	
 	
