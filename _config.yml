@@ -102,10 +102,10 @@ author:
       icon:
 
 # Footer Links
-footer_links:
-  title: GitHub
-      url: https://github.com/kvonehr
-      icon: fab fa-github-square
-  title: Instagram
-      url: https://www.instagram.com/kurtvonehr/
-      icon: fab fa-instagram
+# footer_links:
+#   title: GitHub
+#       url: https://github.com/kvonehr
+#       icon: fab fa-github-square
+#   title: Instagram
+#       url: https://www.instagram.com/kurtvonehr/
+#       icon: fab fa-instagram
