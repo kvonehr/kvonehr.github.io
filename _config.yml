@@ -18,10 +18,10 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Kurt VonEhr"
-description: "reviews and rants about whatever"
+description: "reviews, rants and research"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: assets/images/IMG_4208.JPG # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true # reading time estimates, e.g. true
 words_per_minute: 200
@@ -55,7 +55,7 @@ feed:
 # paginate_path: /page:num/
 
 # Search
-search_full_content: false # can have performance implications for large sites
+search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
 # category_archive_path: "/categories/#"
@@ -84,21 +84,30 @@ collections:
   random:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+  litreviews:
+    output: true
+    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
   # Posts defaults
   - scope:
-      path: "_posts"
+      path: "_random"
       type: posts
     values:
       layout: post
-      share: true
+      share: false
 
 # Site Author
-author:
-  name:
-  picture:
+author: 
+  name: Kurt VonEhr
+  picture: /assets/images/IMG_4208.JPG
   email:
   twitter:
   links:
