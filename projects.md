@@ -4,4 +4,5 @@ layout: collection
 permalink: /projects/
 collection: projects
 entries_layout: grid
+show_excerpts: false
 ---

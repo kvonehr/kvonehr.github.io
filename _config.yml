@@ -18,7 +18,7 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Kurt VonEhr"
-description: "reviews, rants and research"
+description: "a site for rants, reviews, and research"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: assets/images/IMG_4208.JPG # path of site logo, e.g. "/images/logo.png"
@@ -98,7 +98,7 @@ collections:
 defaults:
   # Posts defaults
   - scope:
-      path: "_random"
+      path: "_posts"
       type: posts
     values:
       layout: post
