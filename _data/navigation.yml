@@ -2,8 +2,14 @@
 
 - title: Home
   url: /
-- title: Posts
-  url: /posts/
+- title: Projects
+  url: /projects/
+- title: Research
+  url: /research/
+- title: Lit Reviews
+  url: /lit_reviews/
+- title: Random
+  url: /random/
 # - title: Categories
 #   url: /categories/
 # - title: Tags
