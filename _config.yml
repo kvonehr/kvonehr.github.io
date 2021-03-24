@@ -113,3 +113,6 @@ footer_links:
   - title: Instagram
     url: https://www.instagram.com/kurtvonehr/
     icon: fab fa-instagram
+  - title: Strava
+    url: https://www.strava.com/athletes/vonehr
+    icon: fab fa-strava
