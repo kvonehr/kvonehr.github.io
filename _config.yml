@@ -18,7 +18,7 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Kurt VonEhr"
-description: "a site for rants, reviews, and research"
+description: Memento Mori
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: assets/images/IMG_4208.JPG # path of site logo, e.g. "/images/logo.png"
@@ -123,5 +123,5 @@ footer_links:
     url: https://www.strava.com/athletes/vonehr
     icon: fab fa-strava
   - title: Gmail
-    url: mailto:kvonehr@gmail.com
+    url: mailto:vonehrk@umich.edu
     icon: far fa-envelope
