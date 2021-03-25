@@ -90,9 +90,6 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  litreviews:
-    output: true
-    permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -125,3 +122,6 @@ footer_links:
   - title: Strava
     url: https://www.strava.com/athletes/vonehr
     icon: fab fa-strava
+  - title: Gmail
+    url: mailto:kvonehr@gmail.com
+    icon: far fa-envelope
