@@ -10883,6 +10883,13 @@ p {
   font-weight: 700;
 }
 
+@media (max-width: 576px) {
+  .btn-xl {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
 .btn-social {
   height: 2.5rem;
   width: 2.5rem;
@@ -10913,7 +10920,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 3rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10938,7 +10945,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10951,7 +10958,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10972,18 +10979,31 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.3;
+  margin-bottom: .8rem;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center; /* in case you need to ensure it’s centered */
 }
+
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  display: block;
+  font-size: clamp(2.8rem, 5vw, 5rem);
   font-weight: 700;
   line-height: 3.25rem;
+
+  /* Center horizontally using margins on a block element */
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* If you want it narrower than the container */
+  max-width: 90%;
+
+  /* Also center text within that block */
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -11004,6 +11024,8 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
